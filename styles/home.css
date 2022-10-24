@@ -1,0 +1,17 @@
+.container {
+  margin: 20px;
+}
+
+.list {
+  position: relative;
+}
+
+.list::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: -7px;
+  border-radius: 20px;
+  background-color: white;
+}
